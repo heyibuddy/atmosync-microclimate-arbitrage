@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_sources
+    database: ATMOSYNC_DB
+    schema: RAW
+    tables:
+      - name: iot_telemetry
+        description: Raw JSON telemetry events from container sensors.
+      - name: market_pricing
+        description: Synthetic market price and destination reference data.

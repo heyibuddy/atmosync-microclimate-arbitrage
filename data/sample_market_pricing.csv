@@ -1,0 +1,4 @@
+market_id,market_name,commodity,base_price_per_kg,distance_km
+MKT-01,Primary Market (Target Longhaul),Avocado,5.50,800
+MKT-02,Secondary Market (Reroute Close),Avocado,4.80,200
+MKT-03,Tertiary Market (Reroute Midhaul),Avocado,4.20,450

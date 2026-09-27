@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# dbt
+target/
+dbt_packages/
+logs/
+.DS_Store
+
+# Generated data
+data/*.jsonl
+data/*.csv.tmp
+
+# IDE
+.vscode/
+.idea/

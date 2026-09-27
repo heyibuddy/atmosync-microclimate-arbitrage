@@ -1,0 +1,17 @@
+name: atmosync
+version: '1.0.0'
+config-version: 2
+
+profile: atmosync
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  atmosync:
+    staging:
+      +schema: ANALYTICS
+      +materialized: view
+    marts:
+      +schema: ANALYTICS
+      +materialized: table
